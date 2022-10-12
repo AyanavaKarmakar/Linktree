@@ -1,5 +1,5 @@
 import type { NextPage } from "next";
-import { HeroComponent, NavbarComponent } from "../components";
+import { FooterComponent, HeroComponent, NavbarComponent } from "../components";
 
 const Home: NextPage = () => {
   return (
@@ -10,6 +10,9 @@ const Home: NextPage = () => {
       <main>
         <HeroComponent />
       </main>
+      <footer>
+        <FooterComponent />
+      </footer>
     </>
   );
 };
