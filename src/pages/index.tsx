@@ -1,11 +1,16 @@
 import type { NextPage } from "next";
-import { NavbarComponent } from "../components";
+import { HeroComponent, NavbarComponent } from "../components";
 
 const Home: NextPage = () => {
   return (
-    <header>
-      <NavbarComponent />
-    </header>
+    <>
+      <header>
+        <NavbarComponent />
+      </header>
+      <main>
+        <HeroComponent />
+      </main>
+    </>
   );
 };
 
