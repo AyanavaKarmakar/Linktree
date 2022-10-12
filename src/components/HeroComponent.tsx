@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import { LinkTreeComponent } from "./LinkTreeComponent";
 
 export const HeroComponent = () => {
@@ -9,7 +10,17 @@ export const HeroComponent = () => {
       }}
     >
       <div className="hero-overlay bg-opacity-90">
-        <LinkTreeComponent />
+        <motion.div
+          initial={{ scale: 0.5 }}
+          animate={{ scale: [0.5, 1.0] }}
+          transition={{
+            type: "spring",
+            stiffness: 260,
+            damping: 75,
+          }}
+        >
+          <LinkTreeComponent />
+        </motion.div>
       </div>
     </div>
   );
