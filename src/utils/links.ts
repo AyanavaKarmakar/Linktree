@@ -6,7 +6,7 @@ const LinkValidator = z.object({
   linkURL: z.string().startsWith("https://"),
 });
 
-type LinkType = z.infer<typeof LinkValidator>;
+export type LinkType = z.infer<typeof LinkValidator>;
 
 export const Links: LinkType[] = [
   {
