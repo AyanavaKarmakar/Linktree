@@ -13,8 +13,8 @@
     "url": "https://github.com/AyanavaKarmakar/ELFIN/issues"
   },
   "engines": {
-    "yarn": ">=1.22.19",
-    "node": ">=16.17.1"
+    "yarn": "1.22.17",
+    "node": "16.16.0"
   },
   "private": true,
   "scripts": {
