@@ -1,4 +1,5 @@
 import { ArrowRedirect } from "../utils/icons";
+import { motion } from "framer-motion";
 
 export const NavbarComponent = () => {
   return (
@@ -7,14 +8,16 @@ export const NavbarComponent = () => {
         ELFIN
       </h2>
       <div className="flex-none">
-        <a
-          href="https://github.com/AyanavaKarmakar/ELFIN"
-          target="_blank"
-          rel="noreferrer"
-          className="btn btn-ghost btn-square"
-        >
-          <ArrowRedirect />
-        </a>
+        <motion.div initial={{ scale: 1.0 }} whileHover={{ scale: 1.2 }}>
+          <a
+            href="https://github.com/AyanavaKarmakar/ELFIN"
+            target="_blank"
+            rel="noreferrer"
+            className="btn-glass btn btn-ghost no-animation"
+          >
+            <ArrowRedirect />
+          </a>
+        </motion.div>
       </div>
     </div>
   );
