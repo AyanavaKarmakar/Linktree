@@ -6,9 +6,14 @@ export const NavbarComponent = () => {
     <div className="navbar bg-gradient-to-r from-indigo-600 bg-auto text-primary-content">
       <h2 className="flex-1 font-mono text-3xl font-bold tracking-wide text-cyan-200 subpixel-antialiased">
         <motion.div initial={{ scale: 0.8 }} whileHover={{ scale: 1.0 }}>
-          ELFIN
+          ELFIN TREE
         </motion.div>
       </h2>
+      <motion.div initial={{ scale: 0.8 }} whileHover={{ scale: 1.0 }}>
+        <h2 className="font-mono text-2xl tracking-wide subpixel-antialiased">
+          Repo
+        </h2>
+      </motion.div>
       <div className="flex-none">
         <motion.div initial={{ scale: 1.0 }} whileHover={{ scale: 1.2 }}>
           <a
