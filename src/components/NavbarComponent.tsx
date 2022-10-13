@@ -4,17 +4,22 @@ import { motion } from "framer-motion";
 export const NavbarComponent = () => {
   return (
     <div className="navbar bg-gradient-to-r from-indigo-600 bg-auto text-primary-content">
-      <h2 className="flex-1 font-mono text-3xl font-bold tracking-wide text-cyan-200 subpixel-antialiased">
-        <motion.div initial={{ scale: 0.8 }} whileHover={{ scale: 1.0 }}>
-          ELFIN TREE
+      <div className="navbar-start">
+        <motion.div
+          initial={{ scale: 0.8 }}
+          animate={{ scale: 1.0 }}
+          transition={{
+            type: "spring",
+            stiffness: 260,
+            damping: 20,
+          }}
+        >
+          <h2 className="font-mono text-3xl font-extrabold tracking-wide subpixel-antialiased">
+            Ayanava Karmakar
+          </h2>
         </motion.div>
-      </h2>
-      <motion.div initial={{ scale: 0.8 }} whileHover={{ scale: 1.0 }}>
-        <h2 className="font-mono text-2xl tracking-wide subpixel-antialiased">
-          Repo
-        </h2>
-      </motion.div>
-      <div className="flex-none">
+      </div>
+      <div className="navbar-end">
         <motion.div initial={{ scale: 1.0 }} whileHover={{ scale: 1.2 }}>
           <a
             href="https://github.com/AyanavaKarmakar/ELFIN"
