@@ -8,7 +8,9 @@ export const CardComponent = (props: LinkType) => {
   return (
     <div className="card glass card-bordered w-80 items-center">
       <div className="card-title">
-        <h2 className="text-base-0 card-title">{linkName}</h2>
+        <h2 className="text-base-0 btn-ghost card-title font-mono text-2xl tracking-wide subpixel-antialiased">
+          {linkName}
+        </h2>
         <div className="card-actions">
           <motion.div initial={{ scale: 1.0 }} whileHover={{ scale: 1.2 }}>
             <a
