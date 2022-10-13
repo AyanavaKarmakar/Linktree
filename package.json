@@ -1,6 +1,8 @@
 {
   "name": "elfin",
   "version": "0.1.0",
+  "description": "Linktree",
+  "author": "Ayanava Karmakar",
   "private": true,
   "scripts": {
     "build": "next build",
