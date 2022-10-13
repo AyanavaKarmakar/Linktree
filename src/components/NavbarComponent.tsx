@@ -6,7 +6,7 @@ export const NavbarComponent = () => {
     <div className="navbar bg-gradient-to-r from-indigo-600 bg-auto text-primary-content">
       <div className="navbar-start">
         <motion.div
-          initial={{ scale: 0.8 }}
+          initial={{ scale: 0.0 }}
           animate={{ scale: 1.0 }}
           transition={{
             type: "spring",
@@ -20,7 +20,16 @@ export const NavbarComponent = () => {
         </motion.div>
       </div>
       <div className="navbar-end">
-        <motion.div initial={{ scale: 1.0 }} whileHover={{ scale: 1.2 }}>
+        <motion.div
+          initial={{ scale: 0.0 }}
+          animate={{ scale: 1.0 }}
+          transition={{
+            type: "spring",
+            stiffness: 260,
+            damping: 20,
+          }}
+          whileHover={{ scale: 1.0 }}
+        >
           <a
             href="https://github.com/AyanavaKarmakar/ELFIN"
             target="_blank"
