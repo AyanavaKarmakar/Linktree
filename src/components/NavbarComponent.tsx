@@ -28,7 +28,7 @@ export const NavbarComponent = () => {
             stiffness: 260,
             damping: 20,
           }}
-          whileHover={{ scale: 1.0 }}
+          whileHover={{ scale: 1.2 }}
         >
           <a
             href="https://github.com/AyanavaKarmakar/ELFIN"
