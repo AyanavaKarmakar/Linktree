@@ -12,7 +12,16 @@ export const CardComponent = (props: LinkType) => {
           {linkName}
         </h2>
         <div className="card-actions">
-          <motion.div initial={{ scale: 1.0 }} whileHover={{ scale: 1.2 }}>
+          <motion.div
+            initial={{ scale: 0.0 }}
+            animate={{ scale: 1.0 }}
+            transition={{
+              type: "spring",
+              stiffness: 260,
+              damping: 20,
+            }}
+            whileHover={{ scale: 1.2 }}
+          >
             <a
               href={linkURL}
               target="_blank"
