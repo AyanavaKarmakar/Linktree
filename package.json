@@ -12,10 +12,6 @@
   "bugs": {
     "url": "https://github.com/AyanavaKarmakar/ELFIN/issues"
   },
-  "engines": {
-    "yarn": "1.22.17",
-    "node": "16.16.0"
-  },
   "private": true,
   "scripts": {
     "build": "next build",
