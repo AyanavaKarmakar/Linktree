@@ -9,7 +9,11 @@ export const LinkTreeComponent = () => {
           const { id, linkName, linkURL } = item;
 
           return (
-            <li key={id} className="step step-primary mb-10 text-cyan-50">
+            <li
+              key={id}
+              data-content=""
+              className="step step-accent mb-10 text-cyan-50"
+            >
               <CardComponent id={id} linkName={linkName} linkURL={linkURL} />
             </li>
           );
