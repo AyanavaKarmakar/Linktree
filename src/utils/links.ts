@@ -11,7 +11,7 @@ export type LinkType = z.infer<typeof LinkValidator>;
 export const Links: LinkType[] = [
   {
     id: 1,
-    linkName: "Github",
+    linkName: "GitHub",
     linkURL: "https://github.com/AyanavaKarmakar",
   },
   {
