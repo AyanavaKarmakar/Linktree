@@ -14,7 +14,7 @@ export const NavbarComponent = () => {
             damping: 20,
           }}
         >
-          <h2 className="ml-1 font-mono text-3xl font-extrabold tracking-wide subpixel-antialiased">
+          <h2 className="ml-1 bg-gradient-to-r from-violet-200 to-cyan-200 bg-clip-text font-mono text-3xl font-extrabold tracking-wide text-transparent subpixel-antialiased">
             Ayanava Karmakar
           </h2>
         </motion.div>
