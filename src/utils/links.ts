@@ -21,7 +21,7 @@ export const Links: LinkType[] = [
   },
   {
     id: 3,
-    linkName: "Portfolio",
+    linkName: "Website",
     linkURL: "https://ayanava-karmakar.vercel.app/",
   },
 ];
