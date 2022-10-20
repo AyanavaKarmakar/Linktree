@@ -3,22 +3,19 @@ import { Links } from "../utils/links";
 
 export const LinkTreeComponent = () => {
   return (
-    <div className="flex h-screen items-center justify-center">
-      <ul className="steps steps-vertical">
-        {Links?.map((item) => {
-          const { id, linkName, linkURL } = item;
+    <div className="flex h-screen flex-col items-center justify-center gap-5">
+      {Links?.map((item) => {
+        const { id, linkName, linkURL } = item;
 
-          return (
-            <li
-              key={id}
-              data-content=""
-              className="step step-accent mb-10 text-cyan-50"
-            >
-              <CardComponent id={id} linkName={linkName} linkURL={linkURL} />
-            </li>
-          );
-        })}
-      </ul>
+        return (
+          <CardComponent
+            key={id}
+            id={id}
+            linkName={linkName}
+            linkURL={linkURL}
+          />
+        );
+      })}
     </div>
   );
 };
