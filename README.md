@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to ELFIN 👋</h1>
+<h1 align="center">Welcome to ELFIN</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
   <img src="https://img.shields.io/badge/yarn-1.22.17-blue.svg" />
@@ -16,14 +16,9 @@
 
 > Linktree
 
-### 🏠 [Homepage](https://elfin.vercel.app/)
+### [Homepage](https://elfin.vercel.app/)
 
-### ✨ [Demo](https://elfin.vercel.app/)
-
-## Prerequisites
-
-- yarn 1.22.17
-- node 16.16.0
+### [Demo](https://elfin.vercel.app/)
 
 ## Install
 
@@ -39,21 +34,19 @@ yarn run start
 
 ## Author
 
-👤 **Ayanava Karmakar**
+**Ayanava Karmakar**
 
 - Website: https://ayanava-karmakar.vercel.app/
 - Github: [@AyanavaKarmakar](https://github.com/AyanavaKarmakar)
 - LinkedIn: [@ayanava-karmakar](https://linkedin.com/in/ayanava-karmakar)
 
-## 🤝 Contributing
+## Contributing
 
 Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/AyanavaKarmakar/ELFIN/issues). You can also take a look at the [contributing guide](https://github.com/AyanavaKarmakar/ELFIN/blob/master/CONTRIBUTING.md).
 
 ## Show your support
 
 Give a ⭐️ if this project helped you!
-
-## 📝 License
 
 Copyright © 2022 [Ayanava Karmakar](https://github.com/AyanavaKarmakar).<br />
 This project is [MIT](https://github.com/AyanavaKarmakar/ELFIN/blob/master/LICENSE) licensed.
