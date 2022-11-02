@@ -1,16 +1,16 @@
 {
   "name": "linktree",
   "version": "2.0.0",
-  "description": "Linktree",
+  "description": "LinkTree",
   "author": "Ayanava Karmakar",
   "license": "MIT",
   "homepage": "",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AyanavaKarmakar/ELFIN.git"
+    "url": "git+https://github.com/AyanavaKarmakar/LinkTree.git"
   },
   "bugs": {
-    "url": "https://github.com/AyanavaKarmakar/ELFIN/issues"
+    "url": "https://github.com/AyanavaKarmakar/LinkTree/issues"
   },
   "private": true,
   "scripts": {
