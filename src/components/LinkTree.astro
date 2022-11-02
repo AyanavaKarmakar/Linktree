@@ -4,7 +4,7 @@ import { Links } from "../utils/Links";
 import type { LinkType } from "../utils/Links";
 ---
 
-<ul class="flex flex-col items-center mt-20">
+<div class="flex flex-col items-center mt-20">
   {
     Links.map((link: LinkType) => {
       const { linkName, linkUrl } = link;
@@ -12,4 +12,5 @@ import type { LinkType } from "../utils/Links";
       return <LinkCard linkName={linkName} linkUrl={linkUrl} />;
     })
   }
-</ul>
+  <div></div>
+</div>
