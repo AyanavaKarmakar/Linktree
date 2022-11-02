@@ -1,12 +1,7 @@
 ---
+import { HeaderTransition } from "./HeaderTransition";
 ---
 
-<center>
-  <article class="prose prose-xl dark:prose-invert m-5">
-    <h1
-      class="font-extrabold tracking-wide uppercase underline underline-offset-auto decoration-dotted decoration-cyan-500 bg-clip-text text-transparent bg-gradient-to-r from-cyan-100 to-cyan-500"
-    >
-      linktree
-    </h1>
-  </article>
-</center>
+<div class="flex justify-center items-center">
+  <HeaderTransition client:load />
+</div>
