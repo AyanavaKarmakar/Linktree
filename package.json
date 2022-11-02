@@ -18,7 +18,8 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "prettier": "prettier -w ."
   },
   "dependencies": {
     "astro": "^1.6.0"
