@@ -1,19 +1,10 @@
 ---
-import "../styles/global.css";
+import BasicLayout from "../layouts/BasicLayout.astro";
 ---
 
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width" />
-    <meta name="generator" content={Astro.generator} />
-    <title>ELFIN</title>
-  </head>
-  <body>
-    <article class="prose lg:prose-xl dark:prose-invert m-3">
-      <h1>ELFIN LINKTREE</h1>
-      <p>Custom Linktree built using Astro, React, and TailwindCSS!</p>
-    </article>
-  </body>
-</html>
+<BasicLayout>
+  <article class="prose lg:prose-xl dark:prose-invert m-3">
+    <h1>ELFIN LINKTREE</h1>
+    <p>Custom Linktree built using Astro, React, and TailwindCSS!</p>
+  </article>
+</BasicLayout>
