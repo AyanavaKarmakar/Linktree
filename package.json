@@ -1,0 +1,26 @@
+{
+  "name": "elfin",
+  "version": "0.1.0",
+  "description": "Linktree",
+  "author": "Ayanava Karmakar",
+  "license": "MIT",
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AyanavaKarmakar/ELFIN.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AyanavaKarmakar/ELFIN/issues"
+  },
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "astro": "^1.6.0"
+  }
+}
