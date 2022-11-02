@@ -1,56 +1,45 @@
-<h1 align="center">Welcome to ELFIN</h1>
-<p>
-  <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
-  <img src="https://img.shields.io/badge/yarn-1.22.17-blue.svg" />
-  <img src="https://img.shields.io/badge/node-16.16.0-blue.svg" />
-  <a href="https://ayanavakarmakar.github.io/ELFIN/" target="_blank">
-    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
-  </a>
-  <a href="https://github.com/AyanavaKarmakar/ELFIN/graphs/commit-activity" target="_blank">
-    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
-  </a>
-  <a href="https://github.com/AyanavaKarmakar/ELFIN/blob/master/LICENSE" target="_blank">
-    <img alt="License: MIT" src="https://img.shields.io/github/license/AyanavaKarmakar/ELFIN" />
-  </a>
-</p>
+# Astro Starter Kit: Minimal
 
-> Linktree
-
-### [Homepage](https://elfin.vercel.app/)
-
-### [Demo](https://elfin.vercel.app/)
-
-## Install
-
-```sh
-yarn install
+```
+npm create astro@latest -- --template minimal
 ```
 
-## Usage
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
 
-```sh
-yarn run start
+> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+
+## 🚀 Project Structure
+
+Inside of your Astro project, you'll see the following folders and files:
+
+```
+/
+├── public/
+├── src/
+│   └── pages/
+│       └── index.astro
+└── package.json
 ```
 
-## Author
+Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
 
-**Ayanava Karmakar**
+There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
 
-- Website: https://ayanava-karmakar.vercel.app/
-- Github: [@AyanavaKarmakar](https://github.com/AyanavaKarmakar)
-- LinkedIn: [@ayanava-karmakar](https://linkedin.com/in/ayanava-karmakar)
+Any static assets, like images, can be placed in the `public/` directory.
 
-## Contributing
+## 🧞 Commands
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/AyanavaKarmakar/ELFIN/issues). You can also take a look at the [contributing guide](https://github.com/AyanavaKarmakar/ELFIN/blob/master/CONTRIBUTING.md).
+All commands are run from the root of the project, from a terminal:
 
-## Show your support
+| Command                | Action                                           |
+| :--------------------- | :----------------------------------------------- |
+| `npm install`          | Installs dependencies                            |
+| `npm run dev`          | Starts local dev server at `localhost:3000`      |
+| `npm run build`        | Build your production site to `./dist/`          |
+| `npm run preview`      | Preview your build locally, before deploying     |
+| `npm run astro ...`    | Run CLI commands like `astro add`, `astro check` |
+| `npm run astro --help` | Get help using the Astro CLI                     |
 
-Give a ⭐️ if this project helped you!
+## 👀 Want to learn more?
 
-Copyright © 2022 [Ayanava Karmakar](https://github.com/AyanavaKarmakar).<br />
-This project is [MIT](https://github.com/AyanavaKarmakar/ELFIN/blob/master/LICENSE) licensed.
-
----
-
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
+Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).

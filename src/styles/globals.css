@@ -2,7 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-/*** REMOVES SCROLLBAR ***/
-::-webkit-scrollbar {
-  display: none;
+@layer base {
+  html {
+    color: #d6d3d1;
+    background-color: #1c1917;
+    -webkit-font-smoothing: auto;
+    -moz-osx-font-smoothing: auto;
+    -ms-overflow-style: none;
+  }
+
+  /*** REMOVES SCROLLBAR ***/
+  ::-webkit-scrollbar {
+    display: none;
+  }
 }
