@@ -1,4 +1,6 @@
 ---
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
 import "../styles/globals.css";
 ---
 
@@ -11,6 +13,14 @@ import "../styles/globals.css";
     <title>Ayanava Karmakar (LINKTREE)</title>
   </head>
   <body>
-    <slot />
+    <header>
+      <Header />
+    </header>
+    <main>
+      <slot />
+    </main>
+    <footer>
+      <Footer />
+    </footer>
   </body>
 </html>
