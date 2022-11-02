@@ -3,7 +3,7 @@ import TextTransition, { presets } from "react-text-transition";
 
 const TEXTS = ["LINKTREE", "Ayanava Karmakar"];
 
-export const HeaderTransition = () => {
+const HeaderTransition = () => {
   const [index, setIndex] = useState(0);
   const INTERVAL_MS = 5000;
 
@@ -25,3 +25,5 @@ export const HeaderTransition = () => {
     </article>
   );
 };
+
+export default HeaderTransition;
