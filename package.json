@@ -22,5 +22,9 @@
   },
   "dependencies": {
     "astro": "^1.6.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.7.1",
+    "prettier-plugin-astro": "^0.7.0"
   }
 }
