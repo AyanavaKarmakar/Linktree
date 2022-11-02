@@ -7,5 +7,5 @@ module.exports = {
       custom: ["ubuntu-mono", "Ubuntu", "sans-serif"],
     },
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/typography")],
 };
