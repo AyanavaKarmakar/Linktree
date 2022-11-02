@@ -1,10 +1,10 @@
 ---
+import { Header } from "../components/Header";
 import BasicLayout from "../layouts/BasicLayout.astro";
-import Header from "../components/Header.astro";
 ---
 
 <BasicLayout>
   <header>
-    <Header />
+    <Header client:load />
   </header>
 </BasicLayout>
