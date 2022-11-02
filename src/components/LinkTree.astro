@@ -1,21 +1,15 @@
 ---
-import LinkCards from "./LinkCards.astro";
+import LinkCard from "./LinkCard.astro";
 import { Links } from "../utils/Links";
 import type { LinkType } from "../utils/Links";
 ---
 
-<ul class="text-justify m-5">
+<ul class="flex flex-col items-center mt-20">
   {
     Links.map((link: LinkType) => {
-      const { id, linkName } = link;
+      const { linkName, linkUrl } = link;
 
-      return (
-        <li>
-          {id}. {linkName}
-        </li>
-      );
+      return <LinkCard linkName={linkName} linkUrl={linkUrl} />;
     })
   }
 </ul>
-
-<LinkCards />

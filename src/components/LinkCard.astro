@@ -1,0 +1,13 @@
+---
+const { linkName, linkUrl } = Astro.props;
+---
+
+<div
+  class="box-content text-center h-auto w-72 m-3 bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 text-zinc-900 rounded"
+>
+  <a href={linkUrl} target="_blank" rel="noreffer">
+    <span class="font-bold text-4xl tracking-tight">
+      {linkName}
+    </span>
+  </a>
+</div>
