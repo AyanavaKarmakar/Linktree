@@ -8,5 +8,11 @@
     background-color: #1c1917;
     -webkit-font-smoothing: auto;
     -moz-osx-font-smoothing: auto;
+    -ms-overflow-style: none;
+  }
+
+  /*** REMOVES SCROLLBAR ***/
+  ::-webkit-scrollbar {
+    display: none;
   }
 }
