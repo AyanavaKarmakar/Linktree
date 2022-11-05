@@ -8,8 +8,11 @@ import vercel from "@astrojs/vercel/serverless";
 
 // https://astro.build/config
 export default defineConfig({
-  // site: "https://AyanavaKarmakar.github.io",
-  // base: "/LinkTree",
+  /**
+   * ? Previously used for deploying on GitHub Pages
+   * site: "https://AyanavaKarmakar.github.io",
+   * base: "/LinkTree",
+   */
   integrations: [tailwind()],
   output: "server",
   adapter: vercel(),
