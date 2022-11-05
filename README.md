@@ -16,7 +16,7 @@ npm run start
 
 **Ayanava Karmakar**
 
-- Website: https://ayanavakarmakar.github.io/LinkTree
+- Website: LINKTREE(https://ayanavakarmakar.github.io/LinkTree)
 - Github: [@AyanavaKarmakar](https://github.com/AyanavaKarmakar)
 - LinkedIn: [@ayanava-karmakar](https://linkedin.com/in/ayanava-karmakar)
 
