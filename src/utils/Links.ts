@@ -22,7 +22,7 @@ export const Links: LinkType[] = [
   {
     id: 3,
     linkName: "Guestbook",
-    linkUrl: "https://ayanava-karmakar-guestbook.vercel.app/",
+    linkUrl: "https://guestbook.ayanavakarmakar.software/",
   },
   {
     id: 4,
