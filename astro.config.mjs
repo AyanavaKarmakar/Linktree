@@ -7,13 +7,16 @@ import tailwind from "@astrojs/tailwind";
 import vercel from "@astrojs/vercel/serverless";
 
 // https://astro.build/config
+import sitemap from "@astrojs/sitemap";
+
+// https://astro.build/config
 export default defineConfig({
   /**
    * ? Previously used for deploying on GitHub Pages
    * site: "https://AyanavaKarmakar.github.io",
    * base: "/LinkTree",
    */
-  integrations: [tailwind()],
+  integrations: [tailwind(), sitemap()],
   output: "server",
   adapter: vercel(),
 });

@@ -23,6 +23,7 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "@astrojs/sitemap": "^1.0.0",
     "@astrojs/tailwind": "^2.1.1",
     "@astrojs/vercel": "^2.3.3",
     "astro": "^1.6.0",
