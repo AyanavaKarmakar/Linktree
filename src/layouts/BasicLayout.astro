@@ -4,7 +4,7 @@ import Footer from "../components/Footer.astro";
 import "../styles/globals.css";
 ---
 
-<html lang="en">
+<html lang="en" class="initial">
   <head>
     <meta charset="utf-8" />
     <meta name="description" content="LinkTree" />
@@ -12,10 +12,39 @@ import "../styles/globals.css";
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
     <title>Ayanava Karmakar (LINKTREE)</title>
+
+    <script is:inline>
+      // Ref: https://github.com/t3-oss/create-t3-app/blob/next/www/src/layouts/docs.astro
+
+      const html = document.documentElement;
+      const theme = (() => {
+        if (
+          typeof localStorage !== undefined &&
+          localStorage.getItem("theme")
+        ) {
+          return localStorage.getItem("theme");
+        }
+
+        if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+          return "dark";
+        }
+
+        return light;
+      })();
+
+      if (theme === "light") {
+        html.classList.remove("dark");
+        html.classList.add("light");
+      } else {
+        html.classList.remove("light");
+        html.classList.add("dark");
+      }
+    </script>
   </head>
+
   <body>
     <div
-      class="h-[calc(100vh+100px)] bg-gradient-to-r from-slate-900/10 via-indigo-900/30 to-zinc-900/10"
+      class="h-[calc(100vh+100px)] bg-gradient-to-r from-orange-200 via-blue-200 to-green-200 dark:from-slate-900/10 dark:via-indigo-900/30 dark:to-zinc-900/10"
     >
       <header>
         <Header />
