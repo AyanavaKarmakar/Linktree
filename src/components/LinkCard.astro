@@ -2,12 +2,12 @@
 const { linkName, linkUrl } = Astro.props;
 ---
 
-<a href={linkUrl} target="_blank" rel="noreffer">
+<a href={linkUrl} target="_blank" rel="noreferrer">
   <div
-    class="hover:motion-safe:animate-pulse box-content text-center h-auto p-3 w-72 m-3 bg-gradient-to-r from-indigo-900 to-blue-500 hover:from-sky-500 hover:to-cyan-900 rounded-lg"
+    class="dark:hover:motion-safe:animate-pulse box-content text-center h-auto p-3 w-72 m-3 bg-gradient-to-r to-slate-900 dark:from-indigo-900 dark:to-blue-500 dark:hover:from-sky-500 dark:hover:to-cyan-900 rounded-xl border-slate-900 dark:border-indigo-900 border-4"
   >
     <span
-      class="font-extrabold text-4xl bg-clip-text text-transparent bg-gradient-to-r from-zinc-50 to-cyan-50 tracking-wide"
+      class="font-extrabold text-4xl bg-clip-text text-transparent bg-slate-900 dark:bg-gradient-to-r dark:from-zinc-50 dark:to-cyan-50 tracking-wide"
     >
       {linkName}
     </span>
