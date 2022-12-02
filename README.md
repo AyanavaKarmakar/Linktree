@@ -20,14 +20,6 @@ npm install
 npm run start
 ```
 
-## Author
-
-**Ayanava Karmakar**
-
-- Website: [LINKTREE](https://linktree.ayanavakarmakar.software/)
-- Github: [@AyanavaKarmakar](https://github.com/AyanavaKarmakar)
-- LinkedIn: [@ayanava-karmakar](https://linkedin.com/in/ayanava-karmakar)
-
 ## Contributing
 
 Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/AyanavaKarmakar/LinkTree/issues).
