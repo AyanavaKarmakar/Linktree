@@ -1,6 +1,6 @@
 <div align="center">
 
-![LinkTree](https://socialify.git.ci/AyanavaKarmakar/LinkTree/image?description=1&font=KoHo&language=1&owner=1&pattern=Circuit%20Board&theme=Dark)
+![LinkTree](https://socialify.git.ci/AyanavaKarmakar/LinkTree/image?description=1&font=Inter&language=1&pattern=Circuit%20Board&theme=Dark)
 
 # 100 / 100 Lighthouse Scores :D
 
