@@ -8,18 +8,6 @@
 
 </div>
 
-## Install
-
-```sh
-npm install
-```
-
-## Usage
-
-```sh
-npm run start
-```
-
 ## Contributing
 
 Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/AyanavaKarmakar/LinkTree/issues).
