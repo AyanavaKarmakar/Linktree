@@ -13,6 +13,7 @@ import "../styles/globals.css";
     <meta name="generator" content={Astro.generator} />
     <title>Ayanava Karmakar (LINKTREE)</title>
 
+
     <script is:inline>
       // Ref: https://github.com/t3-oss/create-t3-app/blob/next/www/src/layouts/docs.astro
 
@@ -41,7 +42,15 @@ import "../styles/globals.css";
       }
     </script>
   </head>
-
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-G39TYXHRES"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-G39TYXHRES');
+    </script>
   <body>
     <div
       class="h-[calc(100vh+100px)] bg-gradient-to-r from-rose-100 to-teal-100 dark:from-slate-900/10 dark:via-indigo-900/30 dark:to-zinc-900/10"
