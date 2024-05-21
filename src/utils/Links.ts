@@ -21,12 +21,12 @@ export const Links: LinkType[] = [
   },
   {
     id: 3,
-    linkName: "Guestbook",
-    linkUrl: "https://guestbook.ayanavakarmakar.software/",
+    linkName: "LeetCode",
+    linkUrl: "https://leetcode.com/u/AyanavaKarmakar/",
   },
   {
     id: 4,
     linkName: "Website",
-    linkUrl: "https://ayanavakarmakar.software",
+    linkUrl: "https://ayanava-karmakar.vercel.app/",
   },
 ];
